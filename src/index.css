@@ -1,3 +1,36 @@
+.paddingTop{
+padding-top: 30px;
+}
+
+.paddingRight{
+  padding-right: 200px;
+}
+
+.cell{
+  border: thin solid #ddd;
+}
+
+.wrap {
+  float: left;
+  position: relative;
+  left: 50%;
+}
+
+.content {
+  float: left;
+  position: relative;
+  left: -50%;
+
+}
+
+.floatLeft{
+  float: left;
+}
+
+.floatRight{
+  float: right;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -5,6 +38,25 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.width100{
+  width: 100%;
+}
+
+.center {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.largerText{
+  font-size: 40px;
+}
+
+.mediumText{
+  font-size: 20px;
 }
 
 code {
